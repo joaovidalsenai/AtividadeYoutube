@@ -1,19 +1,44 @@
 body {
-    background-color: black;
+    background-color: rgb(37, 37, 37);
     color: white;
+    font-family: "Roboto", sans-serif;
+    height: 200vh;
+    scrollbar-color: #ababab;
+    scrollbar-highlight-color: #8a8a8a;
 }
 
 header {
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+
+}
+
+.header-items {
+    margin-top: 8px;
+    margin-bottom: 5px;
+}
+
+#start {
+    margin-left: 1.1%;
+    display: flex;
+    justify-content: flex-start;
     align-items: center;
 }
 
 #logo-yt {
-    margin-left: 1.2vw;
-    width: 7vw;
+    margin-left: 15%;
+    width: 11.5vh;
 }
 
+#center {
+    margin-left: 6%;
+}
 #search-wrapper {
     display: flex;
     justify-content: center;
@@ -27,7 +52,8 @@ header {
     border: none;
     font-size: 1.7vh;
     font-weight: 500;
-    width: 35vw;
+    width: 37vw;
+    height: 40px;
     border: 1px solid #303030;
     border-radius: 25px 0px 0px 25px;
 }
@@ -39,7 +65,7 @@ header {
 }
 
 #link-lupa {
-    height: 39px;
+    height: 40px;
     margin-right: 1.5vw;
 }
 
@@ -47,18 +73,60 @@ header {
     height: inherit;
 }
 
+#mic {
+    border-radius: 100%;
+    width: 5vh;
+    aspect-ratio: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.johnnydäpp {
+    background-color: #272727;
+}
+
+.johnnydäpp:hover {
+    background-color: #3d3d3d;
+}
+
 #end {
     display: flex;
     align-items: center;
+    margin-right: 2%;
 }
 
-#notify {
-    margin-right: 2.2vw;
+#criar {
+    border-radius: 20px;
+    width: 6vw;
+    height: 4.5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#sino {
+    margin-left: 1vw;
+    margin-right: 1.5vw;
+    border-radius: 100%;
+    width: 5vh;
+    aspect-ratio: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#sino:hover {
+    background-color: #272727;
 }
 
 #pfp {
-    margin-right: 1.2vw;
-    width: 4.5vh;
+    height: 33px;
+}
+
+
+#pfp-img {
     border-radius: 100%;
+    height: inherit;
 }
 
