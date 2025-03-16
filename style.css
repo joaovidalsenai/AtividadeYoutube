@@ -315,6 +315,148 @@ select {
     background-color: #4d4d4d;
 }
 
+#comentar {
+    margin-top: 3vh;
+    display: flex;
+    align-items: flex-start;
+}
+
+#com-pfp {
+    width: 2.7vw;
+    aspect-ratio: 1;
+    border-radius: 100%;
+}
+
+#type-com {
+    width: 60vw;
+    margin: 0vw 0vw auto 1.8vw;
+    background-color: black;
+    color: white;
+    padding: 0px 0px 5px;
+    border: none;
+    border-bottom: 1px solid #717171;
+}
+
+#type-com:focus {
+    outline: none;
+    border-bottom: 2px solid white;
+}
+
+#com-actions {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 0.6vw;
+}
+
+#emoji {
+    width: 40px;
+    aspect-ratio: 1;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0vw 0vw auto 1.8vw;
+}
+
+#img-emoji {
+    width:50%;
+}
+
+#cancel {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    width: 7vw;
+    border-radius: 25px;
+    border: none;
+    margin-left: auto;
+}
+
+#cancel:hover {
+    background-color: #303030;
+}
+
+#send {
+    background-color: #272727;
+    color: #717171;
+    padding: 10px;
+    width: 7vw;
+    border-radius: 25px;
+    border: none;
+    margin-left: 1vw;
+}
+
+#emoji:hover {
+    background-color: #303030;
+    cursor: pointer;
+}
+
+#replys {
+    margin-top: 7vh;
+}
+
+.reply {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+.username {
+    margin: 0vh 0vh 0vh 1.5vw;
+}
+
+.date {
+    color: #aaaaaa;
+}
+
+.reply-actions {
+    margin: 0px 0px 4vh 4.4vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.com-img {
+    width: 2.7vw;
+    height: 2.7vw;
+    border-radius: 100%;
+}
+
+.com-like {
+    background-color: black;
+    color: white;
+    border: none;
+    width: 5vh;
+    aspect-ratio: 1;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.com-like:hover {
+    background-color: #303030;
+}
+
+.com-des {
+    margin: 0.7vh 0.45vw 0px
+}
+
+.reply-com {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    width: 6vw;
+    border-radius: 25px;
+    border: none;
+    margin-left: 2vw;
+}
+
+.reply-com:hover {
+    background-color: #303030;
+}
+
 #description:hover {
     cursor: pointer;
 }
