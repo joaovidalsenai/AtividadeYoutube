@@ -1,0 +1,64 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo-yt {
+    margin-left: 1.2vw;
+    width: 7vw;
+}
+
+#search-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#search-bar {
+    color: white;
+    padding: 10px 0px 10px 20px;
+    background-color: transparent;
+    border: none;
+    font-size: 1.7vh;
+    font-weight: 500;
+    width: 35vw;
+    border: 1px solid #303030;
+    border-radius: 25px 0px 0px 25px;
+}
+
+#search-bar:focus {
+    border-color: #1C62B9;
+    outline: none;
+    box-shadow: none;
+}
+
+#link-lupa {
+    height: 39px;
+    margin-right: 1.5vw;
+}
+
+#lupa {
+    height: inherit;
+}
+
+#end {
+    display: flex;
+    align-items: center;
+}
+
+#notify {
+    margin-right: 2.2vw;
+}
+
+#pfp {
+    margin-right: 1.2vw;
+    width: 4.5vh;
+    border-radius: 100%;
+}
+
