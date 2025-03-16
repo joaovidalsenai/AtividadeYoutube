@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+html, body, input, a, button, p, div{
+    font-family: "Roboto", sans-serif;;
+}
+
 body {
     background-color: rgb(0, 0, 0);
     color: white;
@@ -194,7 +200,7 @@ h1 {
 }
 
 #subs {
-    font-family: 0.1;
+    font-size: 0.8vw;
     color: #aaaaaa;
 }
 
@@ -406,8 +412,17 @@ select {
     margin: 0vh 0vh 0vh 1.5vw;
 }
 
+.username {
+    cursor: pointer;
+}
+
 .date {
     color: #aaaaaa;
+}
+
+.date:hover {
+    color: white;
+    cursor: pointer;
 }
 
 .reply-actions {
@@ -421,6 +436,10 @@ select {
     width: 2.7vw;
     height: 2.7vw;
     border-radius: 100%;
+}
+
+.com-img:hover {
+    cursor: pointer;
 }
 
 .com-like {
@@ -437,6 +456,7 @@ select {
 
 .com-like:hover {
     background-color: #303030;
+    cursor: pointer;
 }
 
 .com-des {
@@ -455,6 +475,7 @@ select {
 
 .reply-com:hover {
     background-color: #303030;
+    cursor: pointer;
 }
 
 #description:hover {
@@ -521,7 +542,6 @@ aside {
 .vid-info {
     margin-left: 1vw;
     height: 5.2vh;
-    height: fit-content;
 }
 
 .info-title {
@@ -536,7 +556,7 @@ aside {
     margin-top: 1vh;
     margin-bottom: 0px;
     width: 15vw;
-    max-height: 36px;
+    max-height: 38px;
     color: white;
     text-decoration: none;
     overflow: hidden;
