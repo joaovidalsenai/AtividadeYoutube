@@ -559,6 +559,8 @@ aside {
     max-height: 38px;
     color: white;
     text-decoration: none;
+    font-size: 1.06vw;
+    font-weight:500;
     overflow: hidden;
     display: -webkit-box;
     -webkit-line-clamp: 2; /* number of lines to show */
