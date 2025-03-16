@@ -130,3 +130,73 @@ header {
     height: inherit;
 }
 
+main {
+    margin-top: 75px;
+    display: flex;
+}
+
+#video {
+    margin-left: 1.5%;
+    width: 65vw;
+}
+#vid-ph {
+    width: inherit;
+    border-radius: 10px;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 1.5vw;
+}
+
+#actions {
+    display: flex;
+    align-items: center;
+}
+
+#canal {
+    width: 48px;
+}
+
+#canal-img {
+    width: inherit;
+    border-radius: 100%;
+}
+
+#nome-subs {
+    margin: 8px 0px 0px 20px;
+    height: 48px;
+}
+
+#nome-link {
+    font-size: 1.3vw;
+    color: white;
+    text-decoration: none;
+}
+
+#subs {
+    font-family: 0.1;
+    color: #aaaaaa;
+}
+
+#subscribe {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    font-size: 1vw;
+    width: 13%;
+    height: 35px;
+    border-radius: 20px;
+    border: none;
+    margin-left: 2vw;
+}
+
+aside {
+    margin-left: 1.6%;
+    margin-right: 2%;
+    width: auto;
+}
+
+p {
+    text-justify: distribute-all-lines;
+}
